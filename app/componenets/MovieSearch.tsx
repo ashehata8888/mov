@@ -19,8 +19,10 @@ export const MovieSearch = () =>{
 
 
 
-    return (<div className='flex justify-center'>
+    return (<div>
+      <div className='flex justify-center'>
         <SearchBar onSearch={handleSearch}/>
+      </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols3 lg:grid-cols-4 gap-8 mt-8'>
           {movies.map((mov : any)=>(
             <MovieCard   key={mov.id} title={mov.title} overview={mov.overview} posterPath={mov.poster_path} />
