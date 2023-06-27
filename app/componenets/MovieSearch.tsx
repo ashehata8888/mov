@@ -23,7 +23,7 @@ export const MovieSearch = () =>{
         <SearchBar onSearch={handleSearch}/>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols3 lg:grid-cols-4 gap-8 mt-8'>
           {movies.map((mov : any)=>(
-            <MovieCard   key={mov.id} title={mov.title} overview={mov.overview} posterPath={mov.poster_path} />
+            <MovieCard   key={mov.id} title={mov.original_title} overview={mov.overview} posterPath={mov.poster_path} />
           )
           )}
         </div>
