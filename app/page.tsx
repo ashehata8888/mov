@@ -10,9 +10,11 @@ export default function Home() {
 <title>Database Movies</title>
 <meta name='description' content='a single movie database for user'/>
     </Head>
+
     <main className='container mx-auto py-10 mx-4 flex flex-col items-center justify-center'>
 
-    <h1 className='text-4xl font-bold mb-8 text-white'> Database Movies</h1>
+    <h1 className='text-4xl font-bold mb-8 text-white'> Movies Database </h1>
+
     <MovieSearch/>
     </main>
     </div>
