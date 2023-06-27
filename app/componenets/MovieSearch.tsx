@@ -13,6 +13,8 @@ export const MovieSearch = () =>{
         const result = await searchMovies(query)
         setMovies(result)
 
+        console.log('result',result)
+
     }
 
 
